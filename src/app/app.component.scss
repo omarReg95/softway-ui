@@ -1,0 +1,38 @@
+.container {
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+header {
+    flex: 0 0 50px;
+    border-bottom: 1px solid rgb(204, 203, 203);
+}
+
+nav {
+    background-color: white !important;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    flex: 0 50px;
+    background: #013e58;
+}
+
+footer > .row {
+    width: 100%;
+}
+
+.row > div > p {
+    color: white;
+}

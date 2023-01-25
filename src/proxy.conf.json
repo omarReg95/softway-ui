@@ -1,0 +1,10 @@
+{
+    "/index": {
+      "target": "http://localhost:8080",
+      "secure": false,
+      "pathRewrite": {
+        "^/index": "http://localhost:8080"
+      },
+      "changeOrigin": true
+    }
+  }

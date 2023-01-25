@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="card">
+        <div class="card-header">
+            Recherche unité médicale
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Saisie index</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ex. 55"  [(ngModel)]="index">
+                        <span class="error_message">{{error}}</span>
+                      </div>
+                    <button type="button" class="btn btn-primary"  (click)="calculer()">Calculer</button>
+                </div>
+                <div class="col" *ngIf="reponse">
+                    <span [innerHTML]="reponse"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

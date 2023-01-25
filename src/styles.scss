@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/bootstrap/dist/js/bootstrap.js";*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.btn-primary {
+    background: #013e58 !important;
+    border-color: #013e586e !important;
+}
